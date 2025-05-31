@@ -20,7 +20,9 @@
 - Run `python -m venv venv` to create a virtual environment.
 - Activate it:
   - On Windows: `.\venv\Scripts\activate`
-  - Create a file with filename.py
+  - Create a file with filename.py 
+
+    ![alt text](filename.png)
 
 ---
 
@@ -31,7 +33,7 @@
   - Copy the Endpoint URL. "https://api.cognitive.microsofttranslator.com"
   - Copy the Location/Region (required for some API configurations).
 
-    ![alt text](image.png) 
+    ![alt text](keys.png)
 
 
 ---
@@ -39,16 +41,14 @@
 ## Step 3.4: Pull the command using Python or any selected language
 - In the Azure portal, within the **Overview** section of your Translator resource, find the Quickstart or Sample code area.
   
-  ![alt text](image-1.png)
+  ![alt text](pythonn.png)
 
 - Choose Python as the language.
  
-  ![alt text](image-2.png)
 
 - Copy the entire Python sample code provided there.
 
-  ![alt text](image-3.png)
-
+  ![alt text](pythoncode.png)
 
 
 ---
@@ -58,13 +58,19 @@
 - Paste the Python sample code you copied from the Azure portal.
 - Replace the placeholders in the sample code with your actual Key, Endpoint, and Location/Region values.
 
-  ![alt text](image-4.png)
+  ![alt text](insert.png) 
 
----
 
 ## Step 3.6: Run the command and check
 - In the integrated terminal, run the Python script by executing:
   ```bash
   python translator.py
 
-  ![alt text](image-5.png)
+
+  ![alt text](runco.png)
+
+---
+
+
+
+ 
